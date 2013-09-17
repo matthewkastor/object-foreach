@@ -1,6 +1,6 @@
 {
   "name": "object-foreach",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Executes a function on each of an objects own enumerable properties.",
   "main": "./src/object-foreach.js",
   "directories": {
@@ -27,6 +27,11 @@
     "name"      : "Matthew Kastor",
     "email"     : "matthewkastor@gmail.com",
     "url"       : "https://plus.google.com/100898583798552211130"
-  },              
-  "license": "gpl-3.0"
+  },
+  "licenses": [
+    {
+        "type" : "gpl-3.0",
+        "url" : "http://www.gnu.org/licenses/gpl-3.0-standalone.html"
+    }
+  ]
 }
