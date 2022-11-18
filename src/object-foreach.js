@@ -1,3 +1,17 @@
+/*jslint
+    node: true
+    indent: 4,
+    maxerr: 50,
+    white: true,
+    node: true,
+    browser: true,
+    devel: true,
+    plusplus: true,
+    regexp: true
+*/
+/*global atropa */
+// end header
+
 /**
  * Executes a function on each of an objects own enumerable properties. The
  *  callback function will receive three arguments: the value of the current
@@ -14,5 +28,6 @@ function objectForeach(obj, callback) {
         callback(obj[prop], prop, obj);
     });
     return obj;
-};
+}
+
 module.exports = objectForeach;
